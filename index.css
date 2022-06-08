@@ -37,7 +37,7 @@ font-size: 16px;
 line-height: 150%;
 }
 
-.element-press{
+.element{
 width: 128px;
 height: 48px;
 margin-top: 32px;
@@ -100,4 +100,10 @@ line-height: 150%;
 
 .modal-min{
 font-weight: bold;
+}
+
+.counter{
+padding-left: 95px;
+font-weight: bold;
+font-size: 20px;
 }

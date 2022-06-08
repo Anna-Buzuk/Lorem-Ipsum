@@ -8,4 +8,4 @@
 
  btn_modal_window,addEventListener('click', hendleBtnClick );
 
- console.log(btn_modal_window);
+ 

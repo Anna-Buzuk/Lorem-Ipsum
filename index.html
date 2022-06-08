@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="/index.css" rel="stylesheet" media="screen"> 
-    <title>Document</title>
+    <title>Recruitment task</title>
 </head>
 <body>
     <main>
@@ -19,7 +19,7 @@
             <p class="second-element-inf">
                 Infinitely scalable, feature-rich and cloud-native data <br>management and protection for modern and legacy<br> infrastructures and SaaS platforms, managed via a<br> single app with no hardware required.
             </p>
-           <button id="btn_modal_window" class="element-press">Button</button>
+           <button type="submit" id="btn_modal_window" onclick="incrementClick()" class="element">Button</button>
         </div>
         
     </main>
@@ -28,7 +28,8 @@
     <div class="modal-content">
         <span class="close_modal_window">&times;</span>
         <h1 class="modal-big">Alert!</h1>
-        <h3 class="modal-big-text">You have clicked  <span class="modal-min"> X times </span>  to related button.</h3>
+        <h3 class="modal-big-text">You have clicked to related button.</h3>
+        <div class="counter">  </div>  
     </div>
 </div>
 
@@ -37,5 +38,7 @@
 
 <script src="./js/modal.js"></script>
 <script src="./js/clik.js"></script>
+<script src="./js/times.js"></script>
+
 </body>
 </html>
