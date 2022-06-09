@@ -1,0 +1,144 @@
+
+body{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .first-element{
+    position: relative;
+    margin-left: 230px;
+    margin-top: 96px;   
+    }
+    
+    
+    .second-element{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: 95px;
+    }
+    
+    
+    .second-element-text{
+    width: 380px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 120%;
+    }
+    
+    .second-element-inf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    }
+    
+    .element{
+    width: 128px;
+    height: 48px;
+    margin-top: 32px;
+    background: #E4C1AE;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 32px;
+    border: none;
+    }
+    
+    .modal{
+    display: none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(18, 18, 18, 0.664);
+    
+    }
+    
+    .modal-content{
+    background-color: white; 
+    margin: 17% auto;
+    padding: 20px;
+    border: 1px;
+    width: 920px;
+    height: 170px;
+    }
+    
+    .close{
+    color: #aaa;
+    float: right;  
+    font-size: 28px;
+    font-weight: bold;
+    }
+    
+    .modal-big{
+    margin-left: 95px;   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 120%;
+    }
+    
+    .modal-big-text{
+    margin-left: 95px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    }
+    
+    .modal-min{
+    font-weight: bold;
+    }
+
+    .close_modal_window{
+        color: #aaa;
+        float: right;  
+        font-size: 28px;
+    }
+
+    .modal-big{
+        margin-left: 95px;   
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 120%;
+        }
+        
+        .modal-big-text{
+        margin-left: 95px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 150%;
+        }
+
+        .element{
+            width: 128px;
+            height: 48px;
+            margin-top: 32px;
+        }
+            
+            .modal-min{
+            font-weight: bold;
+            }
+            
+            .counter{
+            padding-left: 95px;
+            font-weight: bold;
+            font-size: 20px;
+            }
